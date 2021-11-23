@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #81d4fa;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CheckUserPayment">
+    <children>
+        <Label layoutX="144.0" layoutY="23.0" prefHeight="27.0" prefWidth="339.0" text="Welcome to Happy Travels" AnchorPane.leftAnchor="144.0" AnchorPane.rightAnchor="117.0" AnchorPane.topAnchor="25.0">
+            <font>
+                <Font name="System Bold Italic" size="22.0" />
+            </font>
+        </Label>
+        <Button layoutX="179.0" layoutY="172.0" mnemonicParsing="false" onAction="#paymentWindow" prefHeight="28.0" prefWidth="141.0" style="-fx-background-color: #004d40;" text="Payment" textFill="WHITE" AnchorPane.rightAnchor="306.0" AnchorPane.topAnchor="172.0">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="288.0" layoutY="59.0" prefHeight="27.0" prefWidth="195.0" text="Believe in safe journey..." AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="105.0" AnchorPane.topAnchor="50.0">
+            <font>
+                <Font name="System Bold Italic" size="13.0" />
+            </font>
+        </Label>
+      <Button layoutX="349.0" layoutY="172.0" mnemonicParsing="false" onAction="#printTicket" prefHeight="28.0" prefWidth="141.0" style="-fx-background-color: #004d40;" text="Print Ticket" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="153.0" layoutY="246.0" mnemonicParsing="false" onAction="#seatBooking" prefWidth="141.0" style="-fx-background-color: #004d40;" text="Seat Booking" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="349.0" layoutY="246.0" mnemonicParsing="false" onAction="#deleteBooking" style="-fx-background-color: #004d40;" text="Delete Booking" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="243.0" layoutY="293.0" mnemonicParsing="false" onAction="#logOut" prefHeight="28.0" prefWidth="141.0" style="-fx-background-color: #004d40;" text="LogOut" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
